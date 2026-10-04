@@ -224,6 +224,16 @@ Cada paso de entrenamiento sobre un mini-lote hace cuatro cosas:
 4. **Optimizador:** mueve cada peso un poco en la dirección que reduce la
    pérdida (SGD o Adam).
 
+La explicación completa, con las fórmulas, derivaciones, diagramas y un ejemplo
+numérico paso a paso, está en
+[`docs/procedimiento.pdf`](docs/procedimiento.pdf) (fuente:
+[`docs/procedimiento.md`](docs/procedimiento.md)). Para regenerar el PDF tras
+editarlo se necesitan pandoc, tectonic (o xelatex) y Node.js:
+
+```bash
+./docs/generar_pdf.sh
+```
+
 Para extender la red, crea una subclase de `Capa` con `adelante`, `atras` y,
 si tiene pesos, `parametros`. Las pruebas de `tests/test_gradientes.py`
 comparan la retropropagación con gradientes numéricos y sirven para validar

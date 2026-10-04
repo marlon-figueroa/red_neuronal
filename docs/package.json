@@ -1,0 +1,8 @@
+{
+  "name": "red-neuronal-docs",
+  "private": true,
+  "description": "Herramientas para generar la documentación en PDF (diagramas Mermaid).",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^11.4.0"
+  }
+}
