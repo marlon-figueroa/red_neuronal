@@ -1,7 +1,7 @@
 ---
 title: "Procedimiento de la red neuronal"
 subtitle: "Definición, funcionamiento y aprendizaje del perceptrón multicapa del proyecto `red_neuronal`"
-author: "Proyecto red_neuronal"
+author: "Marlon E. Figueroa"
 date: "Octubre de 2026"
 lang: es
 documentclass: article
